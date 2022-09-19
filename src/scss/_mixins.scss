@@ -3,3 +3,28 @@
 
 
 
+
+@mixin monst600 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+@mixin monst700 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+@mixin inter500 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+@mixin inter400 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+@mixin mp0 {
+  margin: 0;
+  padding: 0;
+}
+@mixin liststyle {
+  list-style: none;
+}
