@@ -1,0 +1,49 @@
+.screen3 {
+  padding-bottom: 80px;
+  padding-top: 80px;
+
+  &__left {
+    max-width: 584px;
+  }
+
+  &__title {
+    @include mp0;
+    @include monst600;
+    color: $titleColor;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 24px;
+  }
+
+  &__descr {
+    @include mp0;
+    @include inter400;
+    color: $textColor;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  &__right {
+    max-width: 584px;
+  }
+}
+
+.screen3-wrp {
+
+}
+.screen3__image {
+  min-width: 384px;
+  height: 384px;
+  border-radius: 3px;
+}
+.screen3-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.screen3-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -240,4 +240,65 @@ a {
 .pad20 {
   padding-bottom: 20px;
 }
+
+.screen3 {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.screen3__left {
+  max-width: 584px;
+}
+.screen3__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #192252;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 24px;
+}
+.screen3__descr {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #848FAC;
+  font-size: 18px;
+  line-height: 27px;
+}
+.screen3__right {
+  max-width: 584px;
+}
+
+.screen3__image {
+  min-width: 384px;
+  height: 384px;
+  border-radius: 3px;
+}
+
+.screen3-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.screen3-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
