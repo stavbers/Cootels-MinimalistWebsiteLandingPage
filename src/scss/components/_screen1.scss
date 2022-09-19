@@ -1,0 +1,58 @@
+.screen1 {
+  padding-bottom: 80px;
+
+  &__left {
+    max-width: 587px;
+  }
+
+  &__title {
+    @include mp0;
+    @include monst600;
+    color: $titleColor;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 24px;
+  }
+
+  &__descr {
+    @include mp0;
+    @include inter400;
+    font-size: 18px;
+    line-height: 27px;
+    color: $textColor;
+    margin-bottom: 32px;
+    margin-right: 24px;
+  }
+
+  &__link {
+    @include mp0;
+    @include inter500;
+    font-size: 16px;
+    color: $whiteColor;
+    line-height: 19px;
+    padding: 16px 32px;
+    background-color: $btnBak;
+    border-radius: 3px;
+  }
+
+  &__right {
+    padding-top: 80px;
+    display: flex;
+  }
+
+  &__image {
+    width: 180px;
+    height: 588px;
+    margin-right: 24px;
+
+    &_down {
+      margin-top: 81px;
+    }
+  }
+}
+
+.screen-wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
