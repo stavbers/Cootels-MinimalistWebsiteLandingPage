@@ -1,0 +1,113 @@
+.screen5 {
+  &-wrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+  }
+
+  &__subtitle {
+    @include mp0;
+    @include inter500;
+    color: $acordTitle;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__title {
+    @include mp0;
+    @include monst600;
+    color: $titleColor;
+    font-size: 36px;
+    line-height: 54px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+  }
+
+  &__descr {
+    @include mp0;
+    @include inter400;
+    color: $textColor;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 32px;
+  }
+
+  &__list {
+    @include mp0;
+    @include liststyle;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    margin-right: 24px;
+    background-color: $btnBak;
+    padding: 16px 32px;
+    border-radius: 3px;
+
+    &:last-child {
+      margin-right: 0px;
+      background-color: $whiteColor;
+    }
+  }
+
+  &__link {
+    color: $whiteColor;
+
+    &-last {
+      color: #0E1734;
+    }
+  }
+}
+
+.screen5-info {
+  max-width: 425px;
+}
+
+.screen5-accord {
+  max-width: 600px;
+}
+
+.accordion-container {}
+
+.ac {
+  margin-bottom: 24px;
+  box-shadow: 2px 1px 12px 6px rgba(0, 0, 0, 0.15);
+}
+
+.ac-header {}
+
+.ac .ac-trigger {
+  @include monst600;
+  font-size: 24px;
+  line-height: 36px;
+  color: $titleColor;
+  padding: 32px 36px;
+  border-radius: 3px;
+
+}
+.ac .ac-panel .ac-text {
+  @include inter400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #848FAC;
+  padding: 32px 36px;
+  padding-top: 0px;
+  background-color: #fff;
+}
+.ac.is-active .ac-panel {
+  background-color: #fff;
+}
+.ac .ac-trigger::after {
+  content: url(../../img/arrowDown.svg);
+  right: 36px;
+  background-color: #FFECE2;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.ac.is-active > .ac-header .ac-trigger::after {
+  content: url(../../img/arrowUp.svg);
+  background-color: #FF620A;
+}
