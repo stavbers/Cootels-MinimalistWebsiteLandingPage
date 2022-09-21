@@ -1,0 +1,57 @@
+:root {
+  --swiper-theme-color: #FAB047;
+}
+.swiper {
+  width: 800px;
+  min-height: 300px;
+}
+.screen6 {
+padding-top: 80px;
+padding-bottom: 80px;
+  &__title {
+    @include mp0;
+    @include monst600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: $titleColor;
+    margin-bottom: 62px;
+  }
+
+  &__image {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 44px;
+  }
+
+  &__descr {
+    @include inter400;
+    @include mp0;
+    font-size: 18px;
+    line-height: 27px;
+    color: $textColor;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  &__name {
+    @include mp0;
+    @include inter500;
+    font-size: 20px;
+    line-height: 30px;
+    color: $titleColor;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: -4px;
+}
+// .swiper-pagination-bullet {
+//   background: var(--swiper-pagination-bullet-inactive-color,#FAB04759);
+//   opacity: var(--swiper-pagination-bullet-inactive-opacity, .4);
+// }

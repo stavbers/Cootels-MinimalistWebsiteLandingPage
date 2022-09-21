@@ -182,6 +182,24 @@ var accordion = new (accordion_js__WEBPACK_IMPORTED_MODULE_1___default())('.acco
   // active element class {string}
   activeClass: 'is-active'
 });
+var swiper = new Swiper('.swiper', {
+  // Optional parameters
+  // direction: 'vertical',
+  loop: true,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar'
+  }
+});
 })();
 
 /******/ })()

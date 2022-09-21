@@ -538,4 +538,63 @@ a {
   content: url(../../img/arrowUp.svg);
   background-color: #FF620A;
 }
+
+:root {
+  --swiper-theme-color: #FAB047;
+}
+
+.swiper {
+  width: 800px;
+  min-height: 300px;
+}
+
+.screen6 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.screen6__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #192252;
+  margin-bottom: 62px;
+}
+.screen6__image {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 44px;
+}
+.screen6__descr {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 27px;
+  color: #848FAC;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.screen6__name {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #192252;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: -4px;
+}
 /*# sourceMappingURL=main.css.map */
