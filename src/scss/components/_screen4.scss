@@ -1,0 +1,103 @@
+.screen4 {
+
+  &__title {
+    @include mp0;
+    @include monst600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: $titleColor;
+    margin-bottom: 24px;
+  }
+
+  &__descr {
+    max-width: 588px;
+    @include mp0;
+    @include inter400;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: $textColor;
+    padding-bottom: 32px;
+  }
+
+  &__link {
+    @include mp0;
+    @include inter500;
+    display: block;
+    text-align: center;
+    max-width: 165px;
+    background-color: $btnBak;
+    color: $whiteColor;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px 32px;
+    border-radius: 3px;
+    margin: 0 auto;
+  }
+
+  &__list {
+    @include mp0;
+    @include liststyle;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  &__item {
+    margin-right: 24px;
+    text-align-last: left;
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+
+}
+
+.screen4-blog {
+padding-top: 88px;
+  &__image {
+    max-width: 384px;
+    max-height: 489px;
+  }
+
+  &__title {
+    @include mp0;
+    @include monst600;
+    color: $titleColor;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  &__descr {
+    @include mp0;
+    @include inter400;
+    color: $textColor;
+    padding-bottom: 32px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  &__link {
+    @include mp0;
+    @include inter400;
+    position: relative;
+    color: $textColor;
+    padding-bottom: 32px;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 1px;
+      right: -26px;
+      background: url(../../img/Arrow_Right.svg);
+    }
+  }
+}
